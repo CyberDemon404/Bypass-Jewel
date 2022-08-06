@@ -8,19 +8,27 @@ install on termux
 
  pkg install python2
 
- pip2 install requests 
+ pip install requests 
 
- pip2 install mechanize
+ pip install mechanize
 
- pip2 install bs4
+ pip  install bs4
 
-python3 -m pip install requests bs4
+ pip install rich
 
- rm -rf JCTFB
+ pip install future
+
+ pip install lolcat
+
+ pip install stdiomask 
+
+ rm -rf Bypass-Jewel 
 
  git clone https://github.com/CyberDemon404/Bypass-Jewel
 
  cd Bypass-Jewel 
  
  python PJT.py
+OR
+ python PJT32.py
 ```
